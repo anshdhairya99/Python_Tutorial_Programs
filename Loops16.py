@@ -1,4 +1,6 @@
 #Loops in python :-------
+# All the solution are present plz open the comment from the code.................................
+# For Loops In Python:------
 
 # list of item:---------
 """list1 = ["Harry","Larry","Carry","Ansh"]
@@ -52,10 +54,21 @@ for item in l1:
     print(item[0]) 
     print(item[1])"""
 
-items = [int, float, "Ansh", 3,55,77,3,55,23,233,23]
+"""items = [int, float, "Ansh", 3,55,77,3,55,23,233,23]
 for item in items:
     if str(item).isnumeric() and item>6:
-        print(item)
+        print(item)"""
+
+"""num = 11
+for i in range(0,num):
+        print(i)"""
+
+num2 = 100
+for i in range(1,num2):
+    print(i)
+
+
+
 
 
 
