@@ -8,7 +8,7 @@
 #45 * 3 = 555, 56+9 = 77,56/6 = 4
 #your program should take operator and the two numbers as input from the user and then result -
 
-"""print('Enter 1st Number')
+print('Enter 1st Number')
 num1 = int(input())
 print('Enter the 2nd Number')
 num2 = int(input())
@@ -36,12 +36,13 @@ elif num3 == '%':
     percent=num2%num1
     print(percent)
 else:
-    print('Error! Please check your input')"""
+    print('Error! Please check your input')
+
 #Do code with self-------------
 #45 * 3 = 555, 56 + 9 = 77, 56 / 6 = 4,30-28  = 3,30%5 = 6
 
 
-"""print('Enter the first number')
+print('Enter the first number')
 num1 = int(input())
 print('Enter the second number')
 num2 = int(input())
@@ -73,7 +74,7 @@ elif num3 == '%':
     percent=num1%num2
     print(percent)
 else:
-    print('Error! Please check your input')"""
+    print('Error! Please check your input')
 
 #REPEAT PROGRAM ----
 
@@ -82,7 +83,7 @@ else:
 
 #45 * 3 = 555, 56 + 9 = 77, 56 / 6 = 4,30-28  = 3,30%5 = 6
 
-"""print("Enter the first number")
+print("Enter the first number")
 num1 = int(input())
 print("Enter the second number")
 num2 = int(input())
@@ -110,7 +111,7 @@ elif num3 =='%':
     Divide =num1%num2
     print(Divide)
 else:
-    print("Error! Please check the your input")"""
+    print("Error! Please check the your input")
 
 # QUIZ :------------------------
 # FAULTY CALCULATOR--------------------------------
@@ -148,7 +149,7 @@ elif num3=='%':
     modulus = num1%num2
     print(modulus)
 else:
-    print("Error! you can check it.")
+    print("Error! you can check them")
 
 
 
