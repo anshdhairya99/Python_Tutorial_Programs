@@ -1,21 +1,22 @@
 # Break And Continue Statement In python:----------------------
 
-"""i = 0
+i = 0
 while(i<45):
     i+=1
-    print(i,end=" ")"""
+    print(i,end=" ") # use the end the code output came in one line. 
 
-# Break Statement In Python :----
+# Break Statement In Python :----------
 
-"""i = 0
+i = 0
 while(True):
     print(i+1,end=" ")
     if (i==44):
-      break #stop the loop using of break .
-    i+=1"""
+      break  #stop the loop using of break 
+    i+=1
+
 #Continue and break Statement :-----------
 
-"""i=0
+i=0
 while(True):
     if i+1<5:
         i = i+1
@@ -23,27 +24,27 @@ while(True):
     print(i+1,end=" ")
     if(i==44):
         break
-    i = i+1"""
+    i = i+1
 
 # Quiz Question with Solution:---------------------
 
-"""while(True):
+while(True):
     num = int(input("Enter the number"))
     if num>=100:
-        print("Congrats🎊🎉 You Have Entered the number")
+        print("Congrats🎉🎉 You Have Entered the number")
         break
     else:
         print("Try again")
-        continue"""
+        continue
 
-"""while(True):
-    num = int(input("Enter the YoU are want that"))
-    if num>=500:
-        print("Congratulation John🎉🎉🎉")
-        break
-    else:
-        print("TRY Again")
-        continue"""
+
+
+
+    
+    
+
+
+    
 
 
 
