@@ -1,6 +1,6 @@
 # OPERATORS IN PYTHON:--------------------------------------------------
 
-# Arithmatc operators:-----------------------------
+# Arithmatic operators:-----------------------------
 # Assignment Operators ------------
 # Comparision Operators ---------
 # Logical Operators--------------
