@@ -1,209 +1,116 @@
-# Arithmatc operators:--
-"""print("5+6 is", 5+6)
-print("5-6 is", 5-6)
-print("5*6 is", 5*6)
-print("5/6 is", 5/6)
-print("5%6 is", 5%6)
-print("5**6 is", 5**6)
-print("5//6 is", 5//6)"""
+# OPERATORS IN PYTHON:--------------------------------------------------
 
-# Assignment operator
-#print("Assignment Operator")
-x = 5
-#print(x)
-#x %=7 # x = x%7
-#print(x)
+# Arithmatc operators:-----------------------------
+# Assignment Operators ------------
+# Comparision Operators ---------
+# Logical Operators--------------
+# Identity Operators ---------------------------
+# Membership Operators ------
+# Bitwise Operators --------------------------
 
-#+=
+# Arithmatic operators :------------
 
-#x= x+3
-#print(x)
-#-=
+print("5+6",5+6)
+print("5-6",5-6)
+print("5 * 6",5*6)
+print("5 / 6",5/6)
+print("5//6",5//6) #it is gives the integer (floar devision operators)
+print("15%6",15%6) # it is gives the remainder 
+print("5**6",5**6) # it is the (exponential operators)
 
-#x = x-3#
-#print(x)
+# Assignment Operators :--------------------------------
 
-#* =
-#x = x*3
-#print(x)
-
-#/=
-
-#x = x/4
-#print(x)
-
-#% =
-"""x = x%3
+print("Assignment Operators")
+x=5
 print(x)
 
-#//=
-x = x//2
+x+=45
 print(x)
 
-#**=
-x = x**6
+x/=45
 print(x)
 
-#& =
-x = x&2
+x%=45 # x = x % 7
 print(x)
 
-#|=
-x=x|4
+x-=45
 print(x)
 
-#^=
-x=x^2
-print(x)
-#>>=
-x=x>>5
+x*=45
 print(x)
 
-#<<=
-x=x<<4
-print(x)"""
+x%=45
+print(x)
 
-#Comparision operator:--
-#i = 8
-#print(i==5)
+x//=45
+print(x)
 
-#i = 5
-#print(i==5)
+# Comparision operators :------------
 
-#i = 7
-#print(i>=7)
+print("Comparision Operators")
+i = 12
+print(i==13)
+print(i==12)
+print(i!=12)
+print(i>10)
+print(i<13)
+print(i>=12)
+print(i<=15)
 
-#i = 5
-#print(i!=9)
+# Logical Operators :---
 
-#i = 2
-#print(i>5)
+a = True 
+b = False
+c = True
+d  = True
+print(a and b)
+print(d or c)
+# And--
+print("Logical Operators")
+m = 20
+print(m<12 and m>12) # If any one condition is false then false
+print(m)
+#Or--
+print("Identity Operators")
+m =30
+print(m>17 or m<12)
+print(m)
+#Not---
+h = 120
+print(not(h<45)and(h<55))
 
-#i = 10
-#print(i>=10)
+# Identity Operators :---------
 
-#i = 120
-#print(i<=120)
+print("Identity operators")
 
-#Logical Operators:--
-#a = True#
-#b = False
-#print(a and b)
-#print(a or b)
-#a = 12
-#b = 10
-#print(not(a>b and b<a))
+a = True
+b = False
+print( a is b)
+print(a is not b)
 
-#Identity Operators:--
+# Membership Operators--
 
-"""x  = ["apple", "grapes"]
-y  = ["mango", "juice"]
-m  = ["mango", "juice"]
-z = x
-print(x is z)# (It comes true because both the value of x and z is same.)
-print(y is z)# (It comes false beacuse both the value of y and z is not same.)
-print(x is y)# (It comes also false beacuse cannot same value.)
-print(x == y)# (It comes also false.)
-print(y == m)# (It comes the true because y is equal to m)"""
+print("Membership Oprators")
+list = [3,3,4,5,77,22,99,100]
+print(3 in list)
+print(32 not in list)
 
-#Membership Operators:---
-"""list = [3,5,33,25,55,88,44,295]
-print(295  in list)
-print(89  in list)
-print(295 not in list)
-print(589 not in list)"""
+# Bitwise Operators :----
 
-#Bitwise Operators:---
+print("Bitwise operators")
 # 0 - 00
 # 1 - 01
 # 2 - 10
 # 3 - 11
-"""print(0&1)
-print(0|1)
-print(0^1)
-print(0<<1)
-print(~1)
-print(3<<8)
-print(99>>2)"""
-#Some question of operators-
-#print(20/2*10+20-50)
-#Arithmatci operators -
-"""x = 12
-y = 10
-print(12+10)
-x = 12
-y = 10
-print(12-10)
-x = 10
-y = 8
-print(10*8)
-x = 9
-y = 3
-print(9/3)
-x = 8
-y = 4
-print(9%8)
-x = 7
-y = 1
-print(7**1)
-x = 30
-y = 15
-print(30//15)
+# And --
+print(0 & 1)
+print(0 & 2)
+# OR--
+print(0 | 1)
+print(0 | 2)
 
-#Assignment Operators:-
-x = 10
-print(x)
-j = 50
-print(j+50)
-j = 90
-print(j-90)
-m = 2
-print(m*22)
-k = 22
-print(k/2)
-
-#Comparision operators:-
-s = 10
-y = 10
-print(s == y)
-
-# Logical operators:-
-d = 80
-j = 20
-print(d>j and j<d)
-h = 100
-l = 500
-print(l<h or h>l)
-h = 100
-l = 500
-print (not(l<h and h>l))"""
-
-# IDENTITY OPERATORS:-
-"""x = 10
-y = 10
-print(x is y)
-print(x is not y)"""
-
-#Membership Operators:---
-#x = ["apple","mango"]
-#print("apple" in x)
-#print("mango" in x)
-#print("papaya" in x)
-#print("lichie" not in x)
-# Membership operators:-
-x =[12,13,14,45,66,77]
-y =[12,13,14,45,66,77]
-print(x in y)
-
-
-
-
-
-
-
-
-
-
-
-
-
+# X-or--
+print(0 ^ 1)
+print(0 ^ 2)
+# Not ----
+print( ~ 1)
