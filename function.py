@@ -5,10 +5,10 @@ b = 8
 c = sum((a,b)) #Built in function.
 print(c) 
 
-def function19():
+def function99():
   print("Hello You are in Function 1")
-print(function19())
-function19() 
+print(function99())
+function99() 
 
 def function8(p,k):
   print("Hello You are in function 8", p+k)
