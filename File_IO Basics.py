@@ -6,8 +6,7 @@
 "a" - Add more content to a file
 "t" - text mode - default
 "b" - binary mode
-"+" - read and write
-
+"+" - read and writing
 
 """
 
