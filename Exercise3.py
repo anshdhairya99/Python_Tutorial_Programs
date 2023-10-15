@@ -4,7 +4,7 @@
 # No of guesses he took to finish
 #game over-
 
-"""n= 18
+n= 18
 number_of_guesses = 1
 print("Number of guesses is limited to only 9 times:")
 while(number_of_guesses<=9):
@@ -20,8 +20,8 @@ while(number_of_guesses<=9):
     print(9-number_of_guesses,"no. of guesses left" )
     number_of_guesses = number_of_guesses+1
     if(number_of_guesses>9):
-        print("Game over")"""
-"""n = 18
+        print("Game over")
+    n = 18
 number_of_guesses = 1
 print("Number of guesses is limited to only 9 times:")
 while(number_of_guesses<=9):
@@ -35,8 +35,8 @@ while(number_of_guesses<=9):
         print(number_of_guesses,"no. of guesses left")
         number_of_guesses = number_of_guesses+1
         if(number_of_guesses>9):
-            print("Game Over")"""
-"""n = 18
+            print("Game Over")
+n = 18
 number_of_guesses = 1
 print("Number of guesses is limited to only 9 times:")
 while(number_of_guesses<=9):
@@ -50,8 +50,8 @@ while(number_of_guesses<=9):
         print(number_of_guesses,"no. of guesses left")
         number_of_guesses = number_of_guesses+1
         if(number_of_guesses>9):
-            print("Game Over")"""
-"""n= 18
+            print("Game Over")
+n= 18
 number_of_guesses = 1
 print("Number of guesses is limited to only 9 times:")
 while(number_of_guesses<=9):
@@ -67,7 +67,7 @@ while(number_of_guesses<=9):
     print(9-number_of_guesses,"no. of guesses left" )
     number_of_guesses = number_of_guesses+1
     if(number_of_guesses>9):
-        print("Game over!!❌❌❌")"""
+        print("Game over!!❌❌❌")
 
 #n = 18
 # no of guesses 9
