@@ -9,11 +9,10 @@
 """Total 6 files 
 write a function that when executed takes as input client name 
 [] cable crossover"""
+
 # One more function to retrieve exercise or food for any client.
 
-
-
-# HEALTH MANAGEMENT SYSTEM :--
+# HEALTH MANAGEMENT SYSTEM :-------------------------------------
 import datetime
 def gettime():
     return datetime.datetime.now()
@@ -78,7 +77,7 @@ def retrieve(k):
                 for i in op:
                     print(i, end="")
     elif(k==3):
-        c = int(input("Enter 1 for excersise and 2 for food"))
+        c = int(input("Enter 1 for excersice and 2 for food"))
         if (c == 1):
             with open("hammad-ex.txt") as op:
                 for i in op:
