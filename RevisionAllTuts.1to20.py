@@ -15,9 +15,11 @@ name
 is 
 alexa"""
 
-# Used of (end):---
-"""print("Hello",end=" ")
-print("Google😊")"""
+# Used of (end):--- It is combined the hello and google in a single line Used of end.
+print("Hello",end=" ")
+print("Google😊")
+print("Hello",end=" ")
+print("Ansh")
 
 # Escape Sequence character :--
 """print("C:\harry") 
@@ -26,9 +28,60 @@ print("C:\\narry")
 print('C:\Ansh')
 print("Harry is the \t good boy")"""
 # Concatinate the string if we are add the two strings:---
-# string(name)+string(name) = (concatinate)
+# Very Important :-- If the two string are added then it is concatinate(not add the two string).
+#string(name)+string(name) = (concatinate)
+print("C:\My Name is Ansh Dhairya")
+print('C:\nirbhay')
+print("Hello My Name Is Rahul \t Im study in IIT Dehradun")
 
 # Variables:--------- 
+var10 = "rahul"
+print(var10)
+
+var20 = "Gopal"
+var30 = "urmila"
+print(var20+var30)
+
+var40 = "Ansh"
+var50 = '45'
+print(var40+var50)
+
+var0 = "jajjxj"
+var1 = 45
+var555 = 56
+print(var0+str(var1)+str(var555))
+
+var888 = 23
+var556 = "String"
+print(str(var888)+var556) 
+
+var4444 = "566"
+var000 = "My String"
+var4455 = "345"
+print(var4444+var000+var4455) 
+
+# It Is concatinate the string they do not print because another var string not used.
+
+"""var0001 = "Hello Digipodium"
+var450001 = 22344343
+print(var0001+var450001)"""
+
+
+var6 = "Hello"
+var5 = "78"
+var7 = "34.56"
+print(var6+var5+str(var7))
+
+var4 = 'ssjsjxsdx'
+var5 = '3.44'
+var99 = '455'
+print(var4+var5+var99)
+
+var550 = "7.88"
+var99090 = "8.99"
+var4454 = "10.000"
+print(var550+var99090+var4454)
+
 """var1 = "hello Roman"
 print(var1)
 var2 ='ram'
@@ -47,14 +100,13 @@ print(var6+var7)"""
 var9 = '1'
 print(var8+var9)"""
 
-"""var1 = "hello"
+var1 = "hello"
 var2 = 45
 var3 = 45.99
-
 #print(var1+str(var2))
 print(var1+str(var3))
 print(var2+var3)
-print(var3+var2)"""
+print(var3+var2)
 
 var1 = "Roman"
 var2 = "Reings"
@@ -70,7 +122,7 @@ print(int(var5)+int(var3)) # In which the add the number.
 
 # Data Types:-----
 
-var6 = "hello"
+"""var6 = "hello"
 var7 = "4"
 var8 = 55.34
 print(type(var6))
@@ -79,7 +131,21 @@ print(type(var8))
 print(var6+var7)
 print(var6+str(var8))
 print(str(var8)+var7)
-print(var7+str(var8))
+print(var7+str(var8))"""
+
+var7 = "Dhairya"
+var5 = "45"
+var6 = "34.67"
+var34 = 89
+var45 = 900
+print(type(var7))
+print(type(var5))
+print(type(var6))
+print(type(var34))
+print(type(var45))
+print(var7+str(var34))
+print(var5+str(var45))
+
 
 # Type Casting:-----
 
@@ -103,7 +169,7 @@ print("Enter the number")
 num = int(input())
 print("You entered",int(num)+10)
 
-# Multi  of the Number :---
+# Multiple of the Number :---
 print("Enter the Number are you want that")
 num = int(input())
 print("You Entered",int(num)*100)

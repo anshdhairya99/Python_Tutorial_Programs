@@ -1,20 +1,20 @@
 # While loop in python:-----------
 
-i = 0
+"""i = 0
 while(i<46):
     print(i)
-    i+=1
+    i+=1"""
 
 # Question In python:----
 
 # Write a program first 10 even number.
-num = 2
-while(num<=20):
+num = 0
+while(num>=20):
     num+=2
     print(num)
 
 #Write a program first 10 odd number.
-num = 1
+"""num = 1
 while(num<=20):
     num+=2
     print(num)
@@ -70,7 +70,7 @@ while(num<=20):
 num = 3
 while(num<=20):
     num+=3
-    print(num)
+    print(num)"""
 
 
 
