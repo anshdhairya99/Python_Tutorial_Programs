@@ -60,7 +60,7 @@ var000 = "My String"
 var4455 = "345"
 print(var4444+var000+var4455) 
 
-# It Is concatinate the string they do not print because another var string not used.
+# It is concatinate the string they do not print because another var string not used.
 
 """var0001 = "Hello Digipodium"
 var450001 = 22344343
@@ -149,6 +149,12 @@ print(var5+str(var45))
 
 # Type Casting:-----
 
+var778 = "457"
+var45 = "129"
+print(var778+var45) # Only Print the 457 and 129 don't add the number.
+print(int(var778)+int(var45)) # It will be added because both string are number.
+
+
 var5 = "23"
 var6 = "11"
 print(int(var5)+int(var6))
@@ -163,16 +169,23 @@ print(10*str(var1)+str(var6))
 print(100*int(var2)+100*int(var7))
 
 
-# Add of  the number:--
+# Add of the number:--
 
-print("Enter the number")
-num = int(input())
-print("You entered",int(num)+10)
+"""print("Enter the Number\n")
+num2 = int(input())
+print("Sum of the Number",10*num2)"""
+
+print("Enter the First number\n")
+print("Enter the second number\n")
+num1 = int(input())
+num2 = int(input())
+print("Sum of the first number",100+num1)
+print("Sum of the second number",100+num2)
 
 # Multiple of the Number :---
-print("Enter the Number are you want that")
+print("Entered the Number are you want that\n")
 num = int(input())
-print("You Entered",int(num)*100)
+print("You Are Wanted the Number",int(num))
 
 # Subract of the number:--
 print("Enter the number")
@@ -187,11 +200,14 @@ print("Enter the Second number")
 num2=int(input())
 print("Sum of the two number are",int(num1)+int(num2))
 
+
+
+
 # String In Python:-----
 
 mystr = "Harry is the good boy"
 print(mystr)
-
+# The strings are in the python :---
 mystr = "Roman Reings"
 print(mystr[0])
 print(mystr[1])
@@ -199,13 +215,13 @@ print(mystr[0:12])
 print(mystr[0:15])
 
 # String Slicing :----
-
-mystr = "Harry potter onnof the my fovrate"
+mystr = "Harry potter on of the my favrate"
 print(mystr[0:5])
 print(mystr[0:13])
 print(len(mystr))
 
-mystr1 = "Hey! Aleena I loved  it your eyes"
+
+mystr1 = "Hey! Aleena I loved it your eyes"
 print("The length of",len(mystr1))
 print(mystr1[0:34])
 
@@ -217,7 +233,7 @@ print((mystr3[0:100]))
 
 mystr5="Hello Boys Whats UP!"
 print("This is length",len(mystr5))
-print((mystr5[0:5:2])) # skip the indexing from front
+print((mystr5[0:5:2])) # skip the indexing from front of the mystr5
 print(mystr5[::948])
 print(mystr5[:]) # print all mystr5
 print(mystr5[::])# ""
@@ -229,16 +245,35 @@ print(mystr5[::2]) # it skip the variable from front
 # Advance Negative Indexing :----
 
 mystr10 = "Dwane Johnson is the best wresthlar"
-print(len(mystr10))
+print("This is the length of the mystr19",len(mystr10))
+#print(mystr10[:])
+#print(mystr10[-1:0])
+#print(mystr10[-4:0])
+#print(mystr10[-4:-2])
+#print(mystr10[:23])
+#print(mystr10[0:1])
+#print(mystr10[::1])
+#print(mystr10[0:-3])
+#print(mystr10[::-1]) # it has opposite the mystr10
+
+
 print(mystr10[:])
 print(mystr10[-1:0])
-print(mystr10[-4:0])
-print(mystr10[-4:-2])
-print(mystr10[:23])
-print(mystr10[0:1])
-print(mystr10[::1])
-print(mystr10[0:-3])
-print(mystr10[::-1]) # it has opposite the mystr10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # True and False :----
 
