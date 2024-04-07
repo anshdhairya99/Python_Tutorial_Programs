@@ -202,8 +202,8 @@ print("Sum of the two number are",int(num1)+int(num2))
 
 
 
-
-# String In Python:-----
+# MORE IMPORTANT:----------------
+# String In Python:------------------------------------------------------------
 
 mystr = "Harry is the good boy"
 print(mystr)
@@ -244,45 +244,51 @@ print(mystr5[::2]) # it skip the variable from front
 
 # Advance Negative Indexing :----
 
-mystr10 = "Dwane Johnson is the best wresthlar"
-print("This is the length of the mystr19",len(mystr10))
-#print(mystr10[:])
-#print(mystr10[-1:0])
-#print(mystr10[-4:0])
-#print(mystr10[-4:-2])
-#print(mystr10[:23])
-#print(mystr10[0:1])
-#print(mystr10[::1])
-#print(mystr10[0:-3])
-#print(mystr10[::-1]) # it has opposite the mystr10
-
-
+"""mystr10 = "Dwane Johnson is the best wresthlar"
+print("This is the length of the",len(mystr10))
 print(mystr10[:])
 print(mystr10[-1:0])
+print(mystr10[-4:0])
+print(mystr10[-4:-2])
+print(mystr10[0:1])
+print(mystr10[::1])
+print(mystr10[0:-3])
+print(mystr10[::-1]) #  it has opposite the mystr10"""
+
+# IT IS ALSO A ADVANCED NEGATIVE INDEXING:------------------------------------------------------
+
+mystr10 = "Dwane Johnson is the best wresthlar"
+print("This is the length of the",len(mystr10))
+print(mystr10[:])
+print(mystr10[:-2]) # skip from the behind.
+print(mystr10[::])
+print(mystr10[::1])
+print(mystr10[::3])# it skip the function from the first of the Dwane
+print(mystr10[:-2:])# it is skip the function from the behind of the wreshtlar
+print(mystr10[:-5]) # it is skip the function from the behind of the wrestlar
+print(mystr10[-4:-3]) # only h is present it from the behind.
+print(mystr10[:-3])#after the semicolon the number write in negative like -8 then remove from the behind. 
+print(mystr10[4:-5])#after the semicolon the number write in negative like -8 then remove from the behind. 
+print(mystr10[5:-6])#after the semicolon the number write in negative like -8 then remove from the behind. 
+print(mystr10[7:-7])#after the semicolon the number write in negative like -8 then remove from the behind. 
+print(mystr10[::])
+print(mystr10[::])
+print(mystr10[:9])
+print(mystr10[:6])
+print(mystr10[::2])
+print(mystr10[:5:8])
+print(mystr10[7:5])
+print(mystr10[::5])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# True and False :----
+# True and False :---- STRING IN PYTHON:------------------
 
 """mystr = "12345"
 print(mystr.isalnum()) # isalnum exclude of numeric
 print(mystr.isalpha()) # it is exclude of character and numeric.
 print(mystr.capitalize()) # it is not capatilize because it is an numerical order
 print(mystr.split()) # split function change in list.
-#print(mystr.join()) # it is join the string in one.
+print(mystr.join()) # it is join the string in one.
 print(mystr.endswith(5))
 print(mystr.strip()) # remove the space"""
 
@@ -307,7 +313,24 @@ print(g)
 h = list1.strip()
 print(h)
 
-# LIST IN PYTHON :-----------------------
+# Strings some important method:---
+"""mystr12 = "12345HELLO ansh dhairya"
+print(mystr12.startswith("1"))
+print(mystr12.endswith("a"))
+print(mystr12.count("a"))
+print(mystr12.upper()) # all the number in upper letter means that all alphabet in capitalized.
+print(mystr12.lower())
+print(mystr12.title())# first letter of ansh and first letter of dhairya are in capital form.
+print(mystr12.find("5"))
+#print(mystr12.rfind())
+print(mystr12.index("i"))# the indexing of the i is in the 19 position.
+print(mystr12.strip())
+print(mystr12.split())# each strings are break down into the list and piece make the list.
+print(mystr12.replace("ansh","adam")) # it is repalace on behalf of the ansh and print the adam."""
+
+
+# LIST IN PYTHON :------------------------------------------------------------------------
+
 grocery = ["Harpic","Vim bar","Deodrant","Cooler","Lollypop",56]
 print(grocery)
 print(type(grocery))
@@ -341,6 +364,7 @@ print(numbers[::-3]) # it skip the -3 from the last
 print(numbers[1:5:-3])
 print(numbers[1:5:2])
 print(numbers[1:5:2])
+#Some method of list are used:------------
 
 # Used the string:--
 print(len(numbers))
@@ -352,7 +376,7 @@ numbers.append(55)
 numbers.append(56)
 print(numbers)
 
-# Indexing No. 
+# Indexing No. ----------------------------------------------------------------------
 numbers.insert(5,99) # the number 99 stand on behalf of index 5
 print(numbers)
 
@@ -368,7 +392,7 @@ print(numbers)
 numbers[1]=88
 print(numbers)
 
-# Tuples :---
+# Tuples :-----------------------------------------------------------------------
 
 tp = (1,2,3,4,5,6,7,8,9,10)
 tp =(1)
@@ -383,8 +407,9 @@ print(b,a)
 # Mutable - can change (our list is mutable)
 # immutable - can not change (our tuple is immutable)
 
-# Dictionary & its function :-----
-
+# Dictionary & its function :-------------------------------------------------
+# Dictionary are defined with dict and also d1:-----------------
+ 
 d1 = {}
 print(type(d1))
 
@@ -479,7 +504,9 @@ print('Enter the Any word for Meaning')
 num = input()
 print(d3[num])
 
-# set :------------------------
+
+
+# Set In Python:---------------------------------------------------------------------
 
 s = set()
 print(s)
@@ -625,24 +652,20 @@ elif age==18:
 else:
     print("you can   drive")
 
-# Python For Loops:----
+# Python For Loops:-------------------------------------------------------------
 
 """fruits = ["Apple","Banana","Cherry"]
-for x in fruits:
+for x in fruits: 
     print(x)"""
 
 sabji = ["Bhindi","Gobhi","Aloo"]
 for x in sabji:
     print(x)
 
-"""list1 = [["Harry",1],["Ansh",2],["Chintoo",3]]
-dict1 = dict(list1)
-for item in dict1:
-    print(item)"""
-list6 = [["Ansh",200],["Gopal",500],["Hello",400]]
+"""list1 = [["Harry",1],["Ansh",2],["Chintoo",3]],[["Ansh",200],["Gopal",500],["Hello",400]]
 dict5 = dict(list6)
 for x in dict5:
-    print(x)
+    print(x)"""
 
 
 list1 = [["Harry",1],["Ansh",2],["Chintoo",3]]
@@ -712,7 +735,7 @@ for x in adj:
 for x in [0,1,2]:
     pass
 
-# WHILE LOOP IN PYTHON:--------
+# WHILE LOOP IN PYTHON:----------------------------------------------------------------
 
 i = 1
 while i<6:
