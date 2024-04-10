@@ -716,7 +716,8 @@ for x in range(6):
 else:
     print("Finally Finished!")
 
-# Nested Loops:---
+
+# Nested Loops:-----------------------------
 
 """adj = ["red","big","tasty"]
 fruits=["apple","banana","cherry"]
@@ -742,7 +743,7 @@ while i<6:
     print(i)
     i+=1 
 
-# Break Satement :---
+# Break Statement :---
 
 i = 1
 while i<5:
@@ -762,12 +763,12 @@ while m<10:
 
 # The else Statement:-----------------
 
-"""n = 1
+n = 1
 while n<6:
     print(n)
     i+=1
 else:
-    print("i is no longer less than 6")"""
+    print("i is no longer less than 6")
 
 # Quiz :-----------------
 # To make a input from user untill the greater of 100 then say congrats if you give the below the no. of 100
@@ -782,7 +783,7 @@ while(True):
         print("Try Again")
 
 
-# Exercie :
+# Exercise :----
 
 number_of_guesses = 18
 print("No. of guesses is limited only a times")
@@ -796,9 +797,8 @@ while(number_of_guesses<=9):
         print("you won\n")
 print(number_of_guesses,"no. of guesses he took to finish")
 if(number_of_guesses>9):
-    print("Game Over!!") 
+    print("Game Over!!")
  
-
 
 
 

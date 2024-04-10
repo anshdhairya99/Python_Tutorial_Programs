@@ -1,11 +1,11 @@
-# List In Python:------------------
+# List In Python:--------------------------------------------------------------
 
 """grocery=["Vim bar","Detergent","Deodrant","Soda","Bru-Gold"]
 print(grocery)
 print(type(grocery))
 print(grocery[4])
 
-# python list and list of the function:------
+# Python list and list of the function:---------------------------------
 
 number=["12","33","45","66","78","100"]
 print(number)
@@ -27,6 +27,7 @@ print(number[1:5])
 print(number)
 
 #Excluding and Skiping the function:---
+
 print(number[::3])
 print(number)
 """
@@ -45,6 +46,7 @@ print(number[0:-2])
 print(number[::5])
 
 
+
 list2 = [00,44,99,77,33,55,22,11,10,99]
 list2.append("22")
 print(list2)
@@ -59,19 +61,22 @@ list2.insert(22,14)
 print(list2)
 print(list2)
 
-# remove the number from the table:----
+# Remove the number from the table:----
 
 list5 = [2,3,4,5,6,7,8,9,10]
 list5.remove(10)
 print(list5)
 
+
 list5.remove(3)
 print(list5)
+
 
 list5.pop()
 print(list5)
 list5[1]=88
 print(list5)
+
 
 
 # Tuples In Python:--------
@@ -381,20 +386,27 @@ if age==18:
 else:
     print("You can drive it!")
 
-# Python In Loops :----------------------------
+# Python For Loops :------------------------------------------------------------------------------
 
 fruits = ["Apple","Orange","Banana"]
 for i in fruits:
      print(i)
 
-vegetable =["Bhindi","Gobhi","Shima-Mirch"]
+grocery = ["Chili","Potato","Aloo","Brinjal"]
+for m in grocery:
+     print(m)
+
+vegetable =["Bhindi","Gobhi","Shimla-Mirch"]
 for i in vegetable:
      print(i)
+     
+
 
 list = [["Lina",1],["Rodes",2],["Harry",3],["Sherni",4],["Marry",5]]
 dict5 = dict(list)
 for x in dict5:
     print(x)
+
 
 list10 = [["Ortan",123],["Kapila",234],["Mouse",890],["Cghe",789]]
 dict12 = dict(list10)
@@ -418,3 +430,171 @@ items2 = [int,float,"Dhairya","Living",77,99,34,12,75]
 for item in items2:
      if str(item).isnumeric() and item>=6:
           print(items2)
+
+items8 = [int,float,"Lana rose","Anty","Lira","Linda","Tina"]
+for item in items8:
+     if str(item).isnumeric() and item>=5:
+          print(items8)
+
+# Looping through a string:------------------------------------
+
+for x in "Apple":
+     print(x)
+
+# Break Statement in python:---------------------------
+
+fruits =["Apple","Banana","Orange","Litchie","Strawberry"]
+for x in fruits:
+     print(x)
+     if x=="Apple":
+      break
+     
+# Continue Statement:--------------
+
+fruits =["Apple","Banana","Orange","Litchie","Strawberry"]
+for x in fruits:
+     if x=="Banana":
+        continue
+     print(x)
+
+
+# Range in Python:------------------
+
+for i in range(1,12): # The range between the 1 to 12 and answer 11.
+     print(i)
+
+# Else in for loop:---
+
+for x in range(12):
+     print(x)
+else:
+      print("Finally Finished!")
+     
+
+for x in range(12):
+     if x==3:break
+     print(x)
+else:
+     print("Finally Finished")
+
+
+
+# Nested Loop:--------------------------------------------
+
+karan = ["Ajansbs","jbhsbb","mkjsjsj","mknsbnsjgh","ndbhguwyuwhb"]
+aujla = ["mkdshdnsj","jhjbbuue","mdnbddd","ddbdbbdhd","DNSBDHBDB"]
+for x in karan:
+     for m in aujla:
+          print(x,m)
+
+
+adj = ["Mangal","Gyaan","Kitchen","Lima"]
+fruits = ["Tina","Libra","Dolly","Samual"]
+for x in adj:
+     for y in fruits:
+          print(x,y)
+
+
+girl =["Lina","Tina","Shivi","Ragi"]
+boys =["Ansh","Shaurabh","Himanshu","Gopal"]
+
+for i in girl:
+     for m in boys:
+          print(i,m)
+
+market = ["Brinjal","Bhindi","Aloo","Mirchi","Gobhi"]
+supermarket = ["New-Facility","Momos","Chips","Toffee","Sejwan Chatni"]
+for l in market:
+     for m in supermarket:
+          print(market,supermarket)
+
+# Pass Statement in python:---
+
+for x in [0,1,2]:
+     pass
+
+
+for m in[1,2,3]:
+     pass
+
+
+for l in [9,6,5]:
+     pass
+
+
+
+# While Loop in Python:--------------------------------------
+
+i = 0
+while(i<20):
+     print(i)
+     i = i+1  #it execute it from the 19. and print the 19.
+
+i = 12
+while(i<19):
+     i = i+12
+
+     
+# Break and continue statement:---------------------------------------------
+
+i = 0
+while (i<20):
+     print(i+1,end=" ") # Print in one line. from 1to20.
+     i = i+1
+
+i = 0
+while(True):
+     print(i+1)
+     i=i+1
+     break
+
+i = 0
+while(True):
+     print(i=1,end=" ")
+     if(i==44):
+          break
+     i=i+1
+
+i  = 0
+while(True):
+     if i+1<5:
+          i =i+1
+          continue
+     print(i+1,end=" ")
+     if(i==44):
+          break #stop the loop
+     i=i+1 # yaha par
+
+
+#Quiz----------------------------------------------------------------
+
+
+num = int(input("Enter the Number\n"))
+if num<=100:
+     print("Do not print the equal no.!")
+if num>100:
+     print("Congrats You Print the number above the 100")
+else:
+     print("Again print the Number")
+
+
+#Quiz :---------------------------------------------------------------
+
+# Number of Guesses question :-------------------------------------------------------------------------
+
+number_of_guesses = 18
+print("Number of Guesses is limited a time")
+while number_of_guesses<=9:
+     guess_number=int(input("Enter the Guess number"))
+     if guess_number<18:
+          print("You Entered the Bigger number please enter less number")
+     elif guess_number>18:
+          print("You are entered the greater number plz entered the less number")
+     else:
+          print("You Won!")
+     print(number_of_guesses,"No. of guesses he took to finish")
+     if(number_of_guesses>9):
+          print("Game Over!")
+
+
+
