@@ -28,7 +28,7 @@ print("C:\\narry")
 print('C:\Ansh')
 print("Harry is the \t good boy")"""
 # Concatinate the string if we are add the two strings:---
-# Very Important :-- If the two string are added then it is concatinate(not add the two string).
+# Very Important :-- If the two string are added then it is concatinate
 #string(name)+string(name) = (concatinate)
 print("C:\My Name is Ansh Dhairya")
 print('C:\nirbhay')
