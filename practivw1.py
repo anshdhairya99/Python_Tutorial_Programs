@@ -1,0 +1,192 @@
+# Operators in Python:---
+
+"""1. Arithmatic operators
+2. Assignment Operators
+3. Comparision Operators.
+4. Logical Operators.
+5. Identity Operators.
+6. Membership Operators.
+7. Bitwise Opearators"""
+
+#1. Arithmatic Opearators:-- It is perform in the mathmatical operators:--
+"""
+x = 10
+y = 12
+print(x+y)
+
+x = 12
+y = 10
+print(x-y) 
+
+x = 20
+y = 15
+print(x*y)
+
+x = 24
+y = 12
+print(x/y)
+
+# It defines the remainder of the the divide.
+x = 30
+y = 15
+print(x%y)
+
+x  = 30
+y = 15
+print(x**y)
+"""
+
+"""print("5+6 is",5+6)
+print("5-6 is",5-6)
+print("5*6 is",5*6)
+print("5//6 is",5/6)
+
+# 2.Assignment Operators:-- Assign the value to variable.
+
+print("Assignment Operators")
+x = 5
+print(x)
+x+=7
+print(x)
+
+x = 20
+print(x)
+x-=10
+print(x)
+
+
+x = 30
+print(x)
+x*=10
+print(x)
+
+x = 50
+print(x)
+x/=20
+print(x)
+
+x = 40
+print(x)
+x%=10
+print(x)
+
+x = 40
+print(x)
+x//=20
+print(x)
+
+x = 70
+print(x)
+x**=20
+print(x)
+
+x = 50
+print(x)
+x&=20
+print(x)
+
+x = 20
+print(x)
+x|=20
+print(x)
+
+x = 10
+print(x)
+x^=12
+print(x)
+
+x = 10
+print(x)
+x>>=10
+print(x)
+
+x = 12
+print(x)
+x<<=12
+print(x)
+
+
+# Comparision Operators:-----------
+
+i  = 12
+print(i==12)
+
+m = 10
+print(m==5)
+
+n = 20
+print(n!=20)
+
+k = 34
+print(k>23)
+
+k = 34
+print(k<23)
+
+o = 100
+print(o>=120)
+
+o = 120
+print(o>=120)
+
+s = 12
+print(s<=10)
+print(s<=12)"""
+
+# Logical Operators:---------------------------
+
+"""a = True
+b = False
+print(a and a)
+print(a and b)
+print(b and a)
+print(b and b)
+print(a or a)
+print(a or b)
+print(b or a)"""
+
+# Identity Operators:---
+
+"""x = 12
+y = 10
+print(x is x)
+print(x is y)
+print(x is not x)
+print(x is not y)"""
+
+# Membership Operatorsw:--
+
+"""list = [2,3,3,4,5,6,6,7,1,2,3,4]
+print(3 in list)
+print(3  not in list)
+print(12 in list)
+print(12 not in list)"""
+
+#Bitwise Operators:--
+
+# 0- 00
+# 1 -01
+# 2 - 10
+#3 - 11
+"""print(0 & 2)
+print(0 | 3)
+
+print(0^1)
+print(0 << 1)
+print(0 >>1)"""
+
+# Short hand if else Notation:--
+
+a = int(input("Enter the number a\n"))
+b = int(input("Enter the number b\n"))
+
+if a>b: print("A bada hai bhai B se!")
+else: print("B bada hai A se bhai")
+
+# Function and Docstrings in Python:---
+
+# In the python function are defined in def keyword:-
+
+def my_function():
+    print("Hello ffrom a function")
+my_function()
