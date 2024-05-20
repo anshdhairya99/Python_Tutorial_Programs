@@ -177,16 +177,91 @@ print(0 >>1)"""
 
 # Short hand if else Notation:--
 
-a = int(input("Enter the number a\n"))
+"""a = int(input("Enter the number a\n"))
 b = int(input("Enter the number b\n"))
 
 if a>b: print("A bada hai bhai B se!")
-else: print("B bada hai A se bhai")
+else: print("B bada hai A se bhai")"""
 
 # Function and Docstrings in Python:---
 
 # In the python function are defined in def keyword:-
 
-def my_function():
+"""def my_function():
     print("Hello ffrom a function")
-my_function()
+my_function()"""
+
+
+# Function in python:--
+
+a = 9
+b = 10
+c = sum((a,b)) # built in function
+print(c)
+
+# They are user define function:--
+
+def function1():
+    print("Hello Ansh you are in function1")
+print (function1())
+function1()
+
+def function2(a,b):
+    print("Are you in function2",a+b)
+print(function2(10,10))
+function2(20,20)
+
+# To find the average :--
+
+def function2(a,b):
+    average = (a+b)/2
+    print(average)
+    return average
+
+v = function2(5,7)
+print(v)
+
+# Find the Average of the number:--
+
+def function3(c,d):
+    average = (c+d)/2
+    #print(average)
+    return average
+f = function3(20,20)
+print(f)
+
+def function5(m,n):
+    sum = (m+n)
+    print(sum)
+    return sum
+k = function5(2,2)
+print(k)
+
+# It is user define function and divide the number.
+def function6(l,b):
+    """This is the function which will calculate average of two numbers
+    They are the function of the first line is docstring"""
+    divide = (l+b)/2
+    return divide
+#l = function6(20,20)
+#print(l)
+print(function6.__doc__)
+
+#Print the docstring in function:-
+
+def function7():
+    """This is the doc string are used in the function the first line o
+    under the function are doctstring"""
+print(function7.__doc__) 
+
+# Try Except handling in Python:---
+
+print("Enter the first number\n")
+num1 = input()
+print("Enter the second number\n")
+num2 =input()
+try: 
+    print("Sum of the number is",int(num1)+int(num2))
+except Exception as e:
+    print(e)
+print("this line is very important")
