@@ -327,13 +327,30 @@ my_function()"""
 # f.close
 
 
-f = open("practice.txt","rt")
-print(f.readlines())
-print(f.readline())
-print(f.readline())
-print(f.readline())
-content = f.read()
-print(content)
+# f = open("practice.txt","rt")
+# print(f.readlines())
+# print(f.readline())
+# print(f.readline())
+# print(f.readline())
+# content = f.read()
+# print(content)
 
+# file write in python :--
 
+# f = open("HRX.txt","a")
+# f.write("You are good in one")
+# f.close()
 
+# f = open("HRX.txt","r+")
+# print(f.read())
+# f.write("thank you\n")
+
+f = open("HRX.txt","a")
+a = f.write("Hey John what are you doing!")
+print(a)
+f.close()
+
+f = open("HRX2.txt","a")
+l = f.write("Hii")
+print(l)
+f.close()
