@@ -194,74 +194,146 @@ my_function()"""
 
 # Function in python:--
 
-a = 9
-b = 10
-c = sum((a,b)) # built in function
-print(c)
+# a = 9
+# b = 10
+# c = sum((a,b)) # built in function
+# print(c)
 
 # They are user define function:--
 
-def function1():
-    print("Hello Ansh you are in function1")
-print (function1())
-function1()
+# def function1():
+#     print("Hello Ansh you are in function1")
+# print (function1())
+# function1()
 
-def function2(a,b):
-    print("Are you in function2",a+b)
-print(function2(10,10))
-function2(20,20)
+# def function2(a,b):
+#     print("Are you in function2",a+b)
+# print(function2(10,10))
+# function2(20,20)
 
 # To find the average :--
 
-def function2(a,b):
-    average = (a+b)/2
-    print(average)
-    return average
+# def function2(a,b):
+#     average = (a+b)/2
+#     print(average)
+#     return average
 
-v = function2(5,7)
-print(v)
+# v = function2(5,7)
+# print(v)
 
 # Find the Average of the number:--
 
-def function3(c,d):
-    average = (c+d)/2
-    #print(average)
-    return average
-f = function3(20,20)
-print(f)
+# def function3(c,d):
+#     average = (c+d)/2
+#     #print(average)
+#     return average
+# f = function3(20,20)
+# print(f)
 
-def function5(m,n):
-    sum = (m+n)
-    print(sum)
-    return sum
-k = function5(2,2)
-print(k)
+# def function5(m,n):
+#     sum = (m+n)
+#     print(sum)
+#     return sum
+# k = function5(2,2)
+# print(k)
 
 # It is user define function and divide the number.
-def function6(l,b):
-    """This is the function which will calculate average of two numbers
-    They are the function of the first line is docstring"""
-    divide = (l+b)/2
-    return divide
+# def function6(l,b):
+#     """This is the function which will calculate average of two numbers
+#     They are the function of the first line is docstring"""
+#     divide = (l+b)/2
+#     return divide
 #l = function6(20,20)
 #print(l)
-print(function6.__doc__)
+# print(function6.__doc__)
 
 #Print the docstring in function:-
 
-def function7():
-    """This is the doc string are used in the function the first line o
-    under the function are doctstring"""
-print(function7.__doc__) 
+# def function7():
+#     """This is the doc string are used in the function the first line o
+#     under the function are doctstring"""
+# print(function7.__doc__) 
 
 # Try Except handling in Python:---
 
-print("Enter the first number\n")
-num1 = input()
-print("Enter the second number\n")
-num2 =input()
-try: 
-    print("Sum of the number is",int(num1)+int(num2))
-except Exception as e:
-    print(e)
-print("this line is very important")
+# print("Enter the first number\n")
+# num1 = input()
+# print("Enter the second number\n")
+# num2 =input()
+# try: 
+#     print("Sum of the number is",int(num1)+int(num2))
+# except Exception as e:
+#     print(e)
+# print("this line is very important")
+
+# Try Except handling in python:--
+
+# print("Enter the first num\n")
+# num3 = input()
+# print("Enter the second num\n")
+# num4 = input()
+# try:
+#     print("Sum of the number is",int(num3)+int(num4))
+# except Exception as e:
+#     print(e)
+# print("Hello voter you vote the any party you liked it.")
+
+
+# File I/O Basic:--
+
+# r - open file for reading. r is the default mode.
+# w - open a file for writing
+# x - ccreate file if not exist
+# a - add more content to a file
+# t - text mode
+# b - binary mode
+# + - read and write
+
+# Question of the day:--
+
+# def function44():
+#     """This is the best way to read the docstring"""
+# print(function44.__doc__)
+
+# File Writing In Python:------------------------------------
+
+# This function is used to open the any txt file.
+
+# f = open("practice.txt")
+# content = f.read()
+# print(content)
+# f.close() # It is used to close the file
+
+# f = open("practice.txt","rb") 
+# content =f.read(3)
+# print(content)
+
+# content =f.read(3)
+# print(content)
+ 
+# f.close()
+
+# f = open("practice.txt","rt")
+#content = f.read()
+#for line in content: # it is read the one word in one line
+ #   print(line)
+# It is divide the letter in line wise:-
+# for line in f:
+    # print(line)
+# print("1",content)
+# content = f.read(23444)
+# content = f.read(334454)
+# print("2",content)
+# f.close
+
+
+f = open("practice.txt","rt")
+print(f.readlines())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+content = f.read()
+print(content)
+
+
+
