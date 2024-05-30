@@ -396,8 +396,10 @@ my_function()"""
 
 # Using with block to open python file:--
 
-with open("marry.txt") as f:
-    # a = f.read(10)
-    # print(a)
-    f = open("marry.txt","rt")
-    f.close()    
+# with open("marry.txt") as f:
+#     # a = f.read(10)
+#     # print(a)
+#     f = open("marry.txt","rt")
+#     f.close()    
+
+
