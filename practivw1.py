@@ -345,12 +345,59 @@ my_function()"""
 # print(f.read())
 # f.write("thank you\n")
 
-f = open("HRX.txt","a")
-a = f.write("Hey John what are you doing!")
-print(a)
-f.close()
+# f = open("HRX.txt","a")
+# a = f.write("Hey John what are you doing!")
+# print(a)
+# f.close()
 
-f = open("HRX2.txt","a")
-l = f.write("Hii")
-print(l)
-f.close()
+# f = open("HRX2.txt","a")
+# l = f.write("Hii")
+# print(l)
+# f.close()
+
+# Pattern Printing:--
+
+# print("How many rows you want to print")
+# num =int(input())
+# print("Type 1 or 0")
+# two = int(input())
+# new = bool(two)
+# if new == True:
+#     for i in range(1,num+1):
+#         for j in range(1,i+1):
+#             print("*",end=" ")
+#             print()
+# elif new == False:
+#     for i in range(num,0,-1):
+#         for j in range(1,i+1):
+#             print("*",end=" ")
+#             print()
+
+# More  on files:--
+
+# f=open("HARRY2.txt")
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+# print(f.readline())
+# f.close() 
+
+# Seek in the python:------
+
+# f = open("HARRY2.txt")
+# print(f.readline())
+# f.seek(10)
+# print(f.readline())
+# f.close()
+
+
+
+# Using with block to open python file:--
+
+with open("marry.txt") as f:
+    # a = f.read(10)
+    # print(a)
+    f = open("marry.txt","rt")
+    f.close()    
