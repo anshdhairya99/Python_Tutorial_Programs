@@ -1,4 +1,4 @@
-# Recursion In Python:-------
+# Recursion In Python:-----------------
 
 def print2(str1):
     print("This is " + str1)
@@ -35,6 +35,6 @@ def factorial_recursive(n):
     else:
         return n * factorial_recursive(n-1)
 number = int(input("Enter the number"))
-print("Factorial using iterative method",factorial_iterative(number))
+print("Factorial using iterative method",factorial_recursive(number))
 print("Factorial using recursive Method",factorial_recursive(number))
 
