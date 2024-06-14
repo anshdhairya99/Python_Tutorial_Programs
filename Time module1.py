@@ -17,7 +17,7 @@ import time
 initial = time.time()
 k = 0
 while(k<45):
-    print("Hello Mac Donalds can you make the recpie fast")
+    print("Hello Mac Donalds can you make the recepie fast")
     time.sleep(2) #written the code within the gap of 2 seconds
     k+=1
     print("While loop ran in",time.time()-initial,"seconds")
