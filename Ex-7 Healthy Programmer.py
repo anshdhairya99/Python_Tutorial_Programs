@@ -52,3 +52,7 @@ while True:
         musiconloop('physical.mp3.mp3','donephy')
         init_exercise = time()
         log_now("Physical Activity done at")    
+
+
+
+        
