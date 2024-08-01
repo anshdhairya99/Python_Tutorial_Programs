@@ -1,4 +1,4 @@
-# **********************8*********MUTIPLE INHERITENCE OOPS IN PYTHON**********************
+# *******************************MUTIPLE INHERITENCE OOPS IN PYTHON***************************
 
 
 class Employee:
