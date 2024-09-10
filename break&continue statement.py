@@ -6,7 +6,7 @@ while(i<45):
     print(i,end=" ") # use the end the code output came in one line. 
 
 # Break Statement In Python :----------
-
+# break statement
 i = 0
 while(True):
     print(i+1,end=" ")
